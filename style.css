@@ -11,9 +11,9 @@ body {
 .container {
     
     text-align: center;
-    max-width: 1200px;
+    max-width: 90%;
     margin: auto;
-    padding: 20px;
+    padding: 5px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -38,5 +38,5 @@ input.letter
 }
 
 img {
-    width: 50px;
+    width: 70%;
     margin: 4px;
