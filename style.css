@@ -28,7 +28,7 @@ input.letter
 #imageContainer {
     width: 90%; /* Adjust width as needed */
     max-width: 1200px; /* Maximum width */
-    height: auto; /* Allow height to adjust based on content */
+    height: 90%; /* Allow height to adjust based on content */
     background-image: url('images/display_field.jpg');
     background-size: cover; /* Ensure the background image covers the container */
     background-position: center; /* Center the background image */
@@ -38,5 +38,5 @@ input.letter
 }
 
 img {
-    width: 100px;
+    width: 50px;
     margin: 4px;
