@@ -1,0 +1,42 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input.letter
+{
+    width: 10px;
+    border: 1px solid black;
+}
+
+#imageContainer {
+    width: 90%; /* Adjust width as needed */
+    max-width: 1200px; /* Maximum width */
+    height: auto; /* Allow height to adjust based on content */
+    background-image: url('images/display_field.jpg');
+    background-size: cover; /* Ensure the background image covers the container */
+    background-position: center; /* Center the background image */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+    padding: 10px; /* Add padding to contain the images */
+}
+
+img {
+    width: 100px;
+    margin: 4px;
