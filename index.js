@@ -62,3 +62,7 @@ function captureScreenshot() {
         console.error('An error occurred while capturing the screenshot:', error);
     });
 }
+
+
+
+
