@@ -19,9 +19,9 @@ body {
 }
 
 input.letter {
-    width: 8px;
+    width: 12px;
     border: 1px solid black;
-    font-color: black;
+    color: black;
 }
 
 .letter form-control mb-2 mx-1{
