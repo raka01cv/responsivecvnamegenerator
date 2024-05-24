@@ -33,17 +33,18 @@ input.letter {
     background-position: center;
     margin-top: 20px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap; /* Ensure items stay on one line */
     justify-content: center;
+    align-items: center;
     padding: 20px;
     box-sizing: border-box;
+    overflow: hidden; /* Hide overflow to ensure the images don't go outside the container */
 }
 
 img {
-    width: 100px;
-    margin-top: 60px;
-    margin-right: 4px;
-    margin-left: 4px;
-    max-width: 100%;
+    width: 10%;
+    max-width: 80%;
+    min-width: 50%;
+    margin: 0 4px;
     height: auto;
 }
