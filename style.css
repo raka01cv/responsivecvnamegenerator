@@ -26,7 +26,7 @@ input.letter {
 #imageContainer {
     width: 100%;
     max-width: 1200px;
-    height: auto;
+    height: 100%;
     background-image: url('images/display_field.jpg');
     background-size: cover;
     background-position: center;
