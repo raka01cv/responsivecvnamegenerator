@@ -27,24 +27,29 @@ input.letter {
     width: 100%;
     max-width: 1200px;
     height: auto;
-    aspect-ratio: 4 / 1; /* Adjust the aspect ratio based on your image's dimensions */
     background-image: url('images/display_field.jpg');
     background-size: cover;
     background-position: center;
     margin-top: 20px;
     display: flex;
-    flex-wrap: nowrap; /* Ensure items stay on one line */
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    overflow: hidden; /* Hide overflow to ensure the images don't go outside the container */
 }
 
-img {
-    width: 10%;
-    max-width: 80%;
-    min-width: 50%;
-    margin: 0 4px;
+#imageContainer img {
+    flex: 1 1 auto;
+    max-width: 80px;
+    min-width: 40px;
     height: auto;
+    margin: 4px;
+    transition: width 0.3s;
+}
+
+@media (max-width: 768px) {
+    #imageContainer img {
+        max-width: 60px;
+        min-width: 30px;
+    }
 }
