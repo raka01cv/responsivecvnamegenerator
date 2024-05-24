@@ -26,18 +26,14 @@ input.letter {
 }
 
 #imageContainer {
-    width: 100%;
-    max-width: 1200px;
-    height: auto;
     background-image: url('images/display_field.jpg'); 
     background-size: cover;
     background-position: center;
-    margin-top: 20px;
+    min-height: 200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
-    box-sizing: border-box;
+    align-items: center;
 }
 
 #imageContainer img {
