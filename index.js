@@ -1,24 +1,4 @@
 const imageContainer = document.getElementById('imageContainer');
-const inputLetters = document.querySelectorAll('.letter');
-
-// Add event listeners to input fields for input movement
-inputLetters.forEach((input, index) => {
-    input.addEventListener('input', function() {
-        // Automatically move to the next input field
-        if (this.value.length === 1 && index < inputLetters.length - 1) {
-            inputLetters[index + 1].focus();
-        }
-    });
-
-    // Add event listener for arrow keys
-    input.addEventListener('keydown', function(event) {
-        if (event.key === 'ArrowRight' && index < inputLetters.length - 1) {
-            inputLetters[index + 1].focus();
-        } else if (event.key === 'ArrowLeft' && index > 0) {
-            inputLetters[index - 1].focus();
-        }
-    });
-});
 
 function generateImages() {
     imageContainer.innerHTML = ''; // Clear previous images
