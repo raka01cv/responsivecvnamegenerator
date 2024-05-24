@@ -9,7 +9,6 @@ body {
 }
 
 .container {
-    
     text-align: center;
     max-width: 1200px;
     margin: auto;
@@ -19,46 +18,54 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input.letter
-{
-    width: 10px;
+input.letter {
+    width: 10%;
     border: 1px solid black;
+    text-align: center;
+    padding: 5px;
 }
 
 #imageContainer {
-    width: 1200px;
-    height: 300px;
-    background-image:url('images/display_field.jpg'); 
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    background-image: url('images/display_field.jpg'); 
+    background-size: cover;
+    background-position: center;
     margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-img {
-    width: 100px;
-    margin-top: 60px;
-    margin-right: 4px;
-    margin-left: 4px;
+#imageContainer img {
+    width: 10%;
+    max-width: 100px;
+    margin: 4px;
 }
 
-.button {
+.button, .button2 {
   align-items: center;
   padding: 6px 14px;
   border-radius: 6px;
   border: none;
   color: #fff;
   background: #243d66;
-   background-origin: border-box;
+  background-origin: border-box;
   box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
 
-.button:focus {
+.button:focus, .button2:focus {
   box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
   outline: 0;
 }
 
-.button:hover {
+.button:hover, .button2:hover {
   background: white;
   border-radius: 6px;
   border: 1px solid #243d66;
@@ -67,29 +74,5 @@ img {
 }
 
 .button2 {
-    margin-top: 15px;
-  align-items: center;
-  padding: 6px 14px;
-  border-radius: 6px;
-  border: none;
-  color: #fff;
-  background: #243d66;
-   background-origin: border-box;
-  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button2:focus {
-  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
-  outline: 0;
-}
-
-.button2:hover {
-  background: white;
-  border-radius: 6px;
-  border: 1px solid #243d66;
-  padding: 5px 13px;
-  color: #243d66;
+  margin-top: 15px;
 }
