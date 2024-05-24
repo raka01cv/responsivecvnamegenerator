@@ -24,6 +24,10 @@ input.letter {
     font-color: black;
 }
 
+.letter form-control mb-2 mx-1{
+    color: black;
+}
+
 #imageContainer {
     width: 100%;
     max-width: 1200px;
