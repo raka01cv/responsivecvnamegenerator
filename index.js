@@ -24,8 +24,8 @@ function captureScreenshot() {
         if (imageUrl) {
             // Construct filename based on input values
             let filename = 'CellaVision_';
-            nameInput.forEach(input => {
-                filename += nameInput.value.toLowerCase();
+            nameArray.forEach(async (input) => {
+                filename += input.toUpperCase();
             });
             filename += '.png';
 
