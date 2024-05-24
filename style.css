@@ -24,7 +24,7 @@ input.letter {
     color: black;
 }
 
-.letter form-control mb-2 mx-1{
+#inputletterbox{
     color: black;
 }
 
