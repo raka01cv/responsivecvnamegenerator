@@ -1,9 +1,12 @@
+// Define nameArray globally
+let nameArray = [];
+
 const imageContainer = document.getElementById('imageContainer');
 
 function generateImages() {
     imageContainer.innerHTML = ''; // Clear previous images
     const nameInput = document.getElementById('nameInput').value;
-    const nameArray = nameInput.split('');
+    nameArray = nameInput.split('');
     nameArray.forEach((input) => {
         const letter = input.toUpperCase();
         if (letter) {
@@ -15,7 +18,7 @@ function generateImages() {
     });
 }
 
-function captureScreenshot(nameArray) {
+function captureScreenshot() {
     const container = document.getElementById('imageContainer');
 
     html2canvas(container).then(canvas => {
