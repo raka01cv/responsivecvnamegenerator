@@ -19,12 +19,12 @@ body {
 }
 
 input.letter {
-    width: 12px;
+    width: 8px;
     border: 1px solid black;
-    color: black;
+    font-color: black;
 }
 
-#inputletterbox{
+.letter form-control mb-2 mx-1{
     color: black;
 }
 
