@@ -21,7 +21,7 @@ body {
 input.letter {
     width: 8px;
     border: 1px solid black;
-    color: black;
+    font-color: black;
 }
 
 #imageContainer {
