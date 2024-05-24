@@ -18,6 +18,16 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+input.letter {
+    width: 12px;
+    border: 1px solid black;
+    color: black;
+}
+
+#inputletterbox{
+    color: black;
+}
+
 #imageContainer {
     width: 100%;
     max-width: 1200px;
