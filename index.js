@@ -2,9 +2,9 @@ const imageContainer = document.getElementById('imageContainer');
 
 function generateImages() {
     imageContainer.innerHTML = ''; // Clear previous images
-    nameInput = document.getElementById('nameInput').value;
+    const nameInput = document.getElementById('nameInput').value;
     const nameArray = nameInput.split('');
-    nameArray.forEach(async (input) => {
+    nameArray.forEach((input) => {
         const letter = input.toUpperCase();
         if (letter) {
             const imageUrl = `images/${letter}.png`; // Assuming images are named with uppercase letters
@@ -15,7 +15,7 @@ function generateImages() {
     });
 }
 
-function captureScreenshot() {
+function captureScreenshot(nameArray) {
     const container = document.getElementById('imageContainer');
 
     html2canvas(container).then(canvas => {
@@ -24,7 +24,7 @@ function captureScreenshot() {
         if (imageUrl) {
             // Construct filename based on input values
             let filename = 'CellaVision_';
-            nameArray.forEach(async (input) => {
+            nameArray.forEach(input => {
                 filename += input.toUpperCase();
             });
             filename += '.png';
@@ -43,7 +43,3 @@ function captureScreenshot() {
         console.error('An error occurred while capturing the screenshot:', error);
     });
 }
-
-
-
-
