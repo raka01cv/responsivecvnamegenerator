@@ -19,14 +19,15 @@ body {
 }
 
 input.letter {
-    width: 10px;
+    width: 8px;
     border: 1px solid black;
+    color: black;
 }
 
 #imageContainer {
     width: 100%;
     max-width: 1200px;
-    height: 100%;
+    height: auto;
     background-image: url('images/display_field.jpg');
     background-size: cover;
     background-position: center;
@@ -40,8 +41,8 @@ input.letter {
 
 #imageContainer img {
     flex: 1 1 auto;
-    max-width: 80px;
-    min-width: 40px;
+    max-width: 40px;
+    min-width: 20px;
     height: auto;
     margin: 4px;
     transition: width 0.3s;
