@@ -24,13 +24,7 @@ function captureScreenshot() {
     html2canvas(container).then(canvas => {
         const imageUrl = canvas.toDataURL();
 
-        if (imageUrl) {
-            // Construct filename based on input values
-            let filename = 'CellaVision_';
-            nameArray.forEach(input => {
-                filename += input.toUpperCase();
-            });
-            filename += '.png';
+            filename = 'CellaVision_yourname.png';
 
             // Create a temporary link element to trigger download
             const link = document.createElement('a');
@@ -42,7 +36,6 @@ function captureScreenshot() {
         } else {
             console.error('Image URL is empty.');
         }
-    }).catch(error => {
+    }.catch(error => {
         console.error('An error occurred while capturing the screenshot:', error);
     });
-}
