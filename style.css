@@ -10,7 +10,7 @@ body {
 
 .container {
     text-align: center;
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
     padding: 20px;
     background-color: #fff;
@@ -18,19 +18,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input.letter {
-    width: 8px;
-    border: 1px solid black;
-    font-color: black;
-}
-
-.letter form-control mb-2 mx-1{
-    color: black;
-}
-
 #imageContainer {
     width: 100%;
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     background-image: url('images/display_field.jpg');
     background-size: cover;
@@ -48,7 +38,7 @@ input.letter {
     max-width: 40px;
     min-width: 20px;
     height: auto;
-    margin: 4px;
+    margin: 2px;
     transition: width 0.3s;
 }
 
