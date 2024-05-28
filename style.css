@@ -36,9 +36,9 @@ body {
 
 #imageContainer img {
     flex: 1 1 auto;
-    max-width: 40px;
+    max-width: 80px;
     width: auto;
-    max-height: 40px;
+    max-height: 80px;
     height: auto;
     margin: 2px;
     transition: width 0.3s;
@@ -55,5 +55,11 @@ body {
     height: 80%;
     padding: 2px;
     }
+
+    #imageContainer img {
+    width: auto;
+    height: auto;
+    margin: 1px;
+}
 
 }
