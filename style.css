@@ -45,16 +45,20 @@ body {
 }
 
 @media (max-width: 768px) {
+    
+    .container {
+        padding: 5px;
+        border-radius: 3px;
+    }
+
     #imageContainer {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+    padding: 5px;
     }
 
     #imageContainer img {
-        max-width: 20px;
-        min-width: 10px;
-        max-height: 20px;
-        min-height: 10px;
+        max-width: 40px;
+        min-width: 20px;
+        max-height: 40px;
+        min-height: 20px;
     }
 }
