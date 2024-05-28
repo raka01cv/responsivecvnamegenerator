@@ -13,9 +13,9 @@ body {
     width: 100vw;
     height: 800vh;
     margin: auto;
-    padding: 50px;
+    padding: 10px;
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 2px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -30,17 +30,16 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
 #imageContainer img {
-    flex: 1 1 auto;
-    max-width: 80px;
-    width: auto;
-    max-height: 80px;
-    height: auto;
-    margin: 2px;
+    flex: 1 1 auto; 
+    width: 100px;
+    margin-top: 60px;
+    margin-right: 4px;
+    margin-left: 4px;
     transition: width 0.3s;
 }
 
@@ -57,9 +56,11 @@ body {
     }
 
     #imageContainer img {
-    width: auto;
-    height: auto;
-    margin: 1px;
+    flex: 1 1 auto; 
+    width: 60px;
+    margin-top: 20px;
+    margin-right: 2px;
+    margin-left: 2px;
 }
 
 }
