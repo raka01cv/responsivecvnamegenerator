@@ -3,11 +3,12 @@ const inputLetters = document.querySelectorAll('.letter');
 
 function generateImages() {
     imageContainer.innerHTML = ''; // Clear previous images
-
-    inputLetters.forEach(async (input) => {
-        const letter = input.value.toLowerCase();
+    nameInput = document.getElementById('nameInput').value;
+    const nameArray = nameInput.split('');
+    nameArray.forEach(async (input) => {
+        const letter = input.toUpperCase();
         if (letter) {
-            const imageUrl = `images/${letter.toUpperCase()}.png`; // Assuming images are named with uppercase letters
+            const imageUrl = `images/${letter}.png`; // Assuming images are named with uppercase letters
             const imgElement = document.createElement('img');
             imgElement.src = imageUrl;
             imageContainer.appendChild(imgElement);
