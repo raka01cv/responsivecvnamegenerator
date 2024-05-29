@@ -3,19 +3,25 @@ const inputLetters = document.querySelectorAll('.letter');
 
 function generateImages() {
     imageContainer.innerHTML = ''; // Clear previous images
-    nameInput = document.getElementById('nameInput').value;
+    const nameInput = document.getElementById('nameInput').value;
     const nameArray = nameInput.split('');
     nameArray.forEach(async (input) => {
-        const letter = input.toUpperCase();
-        if (letter) {
-            const imageUrl = `images/${letter}.png`; // Assuming images are named with uppercase letters
+        let imageUrl;
+        if (input === ' ') {
+            imageUrl = 'images/space.png'; // Adjust according to the actual filename
+        } else if (input === '.') {
+            imageUrl = 'images/period.png'; // Adjust according to the actual filename
+        } else {
+            const letter = input.toUpperCase();
+            imageUrl = `images/${letter}.png`; // Assuming images are named with uppercase letters
+        }
+        if (imageUrl) {
             const imgElement = document.createElement('img');
             imgElement.src = imageUrl;
             imageContainer.appendChild(imgElement);
         }
     });
 }
-
 function captureScreenshot() {
     const container = document.getElementById('imageContainer');
 
