@@ -55,7 +55,7 @@ body {
     #imageContainer img {
     flex: 1 1 auto; 
     width: 20px;
-    height: 10px;
+    height: auto;
 }
 
 }
