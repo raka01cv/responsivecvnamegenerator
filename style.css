@@ -33,7 +33,7 @@ body {
     background-image: url('images/display_field.jpg');
     background-size: cover;
     background-position: center;
-    margin-top: 20px;
+    margin-top: 20%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -56,8 +56,7 @@ body {
     margin-top: 5px;
     padding: 2px;
     flex: 1 1 auto; 
-    width: 10px;
-    height: 50%;
+    width: 40px;
 }
 
 }
