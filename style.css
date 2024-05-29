@@ -53,9 +53,11 @@ body {
 @media (max-width: 768px) {
 
     #imageContainer img {
+    margin-top: 5px;
+    padding: 2px;
     flex: 1 1 auto; 
     width: 10px;
-    height: 5px;
+    height: 50%;
 }
 
 }
