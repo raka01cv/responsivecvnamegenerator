@@ -1,36 +1,40 @@
-# Project Title
+# CellaVision Name Generator
 
-Simple overview of use/purpose.
+A web app that helps you create an image with your name using WBC cells shaped as English alphabets.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This is a web app that helps you create your name using WBC cell images collected and shared by CellaVision analyzer users with CellaVision.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* You should be connected to internet.
+* Works on any desktop or mobile browsers.
+* It is responsive so will work with all screen size types.
 
 ### How to run program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* Go to [CellaVision Name Generator](https://raka01cv.github.io/responsivecvnamegenerator/) website
+
+* Write your name in the "Enter a name:" box
+
+![Name generator browser view](images/thumbnail-1.png)
+
+* Then press the "Generate Images" button to create teh image with your name
+
+* Once the image is generated and you are happy with the output. Then click on the "Download Image" button to download it.
+
+* The final image will be as follows.
+
+![Name generator output image](images/thumbnail-2.png)
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Please feel free to comment here or reach out to me [@RKanjilimadom](https://x.com/RKanjilimadom).
 
-## Authors
-
-Contributors names and contact info
+## Author
 
 Rahul Kanjilimadom  
 [@RKanjilimadom](https://x.com/RKanjilimadom)
@@ -45,7 +49,7 @@ Rahul Kanjilimadom
 
 ## License
 
-This project is owned by [CellaVision AB](https://https://www.cellavision.com)
+This project and the alphabets cell images are a property of [CellaVision AB](https://https://www.cellavision.com)
 
 ## Acknowledgments
 *   Mats Erikson  
