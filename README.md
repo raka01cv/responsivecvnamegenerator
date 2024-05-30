@@ -51,7 +51,7 @@ Rahul Kanjilimadom
 
 This project and the alphabets cell images are a property of [CellaVision AB](https://https://www.cellavision.com)
 
-## Acknowledgments
+## Acknowledgements
 *   Mats Erikson  
     [LinkedIn](https://www.linkedin.com/in/mats-erikson-4816418b/)
 
